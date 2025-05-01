@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Child_support_case_or_parenting_plan__c</fullName>
+    <label>Child support case or parenting plan</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open case with Child Support Enforcement Division</fullName>
+                <default>false</default>
+                <label>Open case with Child Support Enforcement Division</label>
+            </value>
+            <value>
+                <fullName>Court-Ordered Parenting Plan</fullName>
+                <default>false</default>
+                <label>Court-Ordered Parenting Plan</label>
+            </value>
+            <value>
+                <fullName>Neither</fullName>
+                <default>false</default>
+                <label>Neither</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

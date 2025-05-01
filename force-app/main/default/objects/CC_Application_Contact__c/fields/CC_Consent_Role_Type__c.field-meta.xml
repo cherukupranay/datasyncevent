@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Consent_Role_Type__c</fullName>
+    <label>Consent Role Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Site Director</fullName>
+                <default>false</default>
+                <label>Site Director</label>
+            </value>
+            <value>
+                <fullName>Lead Teacher</fullName>
+                <default>false</default>
+                <label>Lead Teacher</label>
+            </value>
+            <value>
+                <fullName>Teacher</fullName>
+                <default>false</default>
+                <label>Teacher</label>
+            </value>
+            <value>
+                <fullName>Substitute</fullName>
+                <default>false</default>
+                <label>Substitute</label>
+            </value>
+            <value>
+                <fullName>Trainee</fullName>
+                <default>false</default>
+                <label>Trainee</label>
+            </value>
+            <value>
+                <fullName>Support Staff</fullName>
+                <default>false</default>
+                <label>Support Staff</label>
+            </value>
+            <value>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+                <label>Volunteer</label>
+            </value>
+            <value>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+                <label>Spouse</label>
+            </value>
+            <value>
+                <fullName>Other Adult</fullName>
+                <default>false</default>
+                <label>Other Adult</label>
+            </value>
+            <value>
+                <fullName>RCE</fullName>
+                <default>false</default>
+                <label>RCE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

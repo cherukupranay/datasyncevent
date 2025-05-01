@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Last_Owner_Track__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Last Owner Track</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Applications2</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

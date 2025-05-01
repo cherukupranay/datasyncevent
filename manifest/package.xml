@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>CC_ApplicationController</members>
-		<members>CC_DataSyncChildRecords</members>
-		<members>CC_DataSyncController</members>
-		<members>CC_DataSyncEventTriggerHandler</members>
-		<members>CC_DataSyncEventTriggerHelper</members>
-		<members>Copy_CC_DataSyncChildRecords</members>
-		<members>SyncRecordsOnApplicationApproval_Copy</members>
-		<members>SyncRecordsOnApplicationApproval_License</members>
-		<members>SyncRecordsOnApproval_BLA</members>
-		<name>ApexClass</name>
+		<members>Account</members>
+		<members>Account</members>
+		<members>Approval_Amend_Renwal_App_Data_Sync__mdt</members>
+		<members>BusinessLicenseApplication</members>
+		<members>CC_Application_Contact__c</members>
+		<members>CC_Application_Specification__c</members>
+		<members>CC_DataSyncEvent__e</members>
+		<members>CC_DataSyncFieldMapping__mdt</members>
+		<members>CC_DataSyncObjectMapping__mdt</members>
+		<members>CC_Document_Item__c</members>
+		<members>PreliminaryApplicationRef</members>
+		<name>CustomObject</name>
 	</types>
 	<version>63.0</version>
 </Package>

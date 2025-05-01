@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Sub_Type__c</fullName>
+    <label>Sub Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Over 85% SMI</fullName>
+                <default>false</default>
+                <label>Over 85% SMI</label>
+            </value>
+            <value>
+                <fullName>Foster Care Day Care</fullName>
+                <default>false</default>
+                <label>Foster Care Day Care</label>
+            </value>
+            <value>
+                <fullName>HDN</fullName>
+                <default>false</default>
+                <label>HDN</label>
+            </value>
+            <value>
+                <fullName>Alternative Care IV-E</fullName>
+                <default>false</default>
+                <label>Alternative Care IV-E</label>
+            </value>
+            <value>
+                <fullName>Title XIX(FFP)</fullName>
+                <default>false</default>
+                <label>Title XIX(FFP)</label>
+            </value>
+            <value>
+                <fullName>Adoption Subsidy HDN</fullName>
+                <default>false</default>
+                <label>Adoption Subsidy HDN</label>
+            </value>
+            <value>
+                <fullName>Adoption Subsidy IV-E</fullName>
+                <default>false</default>
+                <label>Adoption Subsidy IV-E</label>
+            </value>
+            <value>
+                <fullName>Adoption Subsidy FFP</fullName>
+                <default>false</default>
+                <label>Adoption Subsidy FFP</label>
+            </value>
+            <value>
+                <fullName>Sub Guardianship</fullName>
+                <default>false</default>
+                <label>Sub Guardianship</label>
+            </value>
+            <value>
+                <fullName>Title IV-E Guardianship</fullName>
+                <default>false</default>
+                <label>Title IV-E Guardianship</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

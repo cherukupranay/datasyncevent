@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Development_Maintenance_of_Programs__c</fullName>
+    <description>Designation Types of Development Maintenance</description>
+    <label>Development and Maintenance of Programs</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Early Childhood Education Program</fullName>
+                <default>false</default>
+                <label>Early Childhood Education Program</label>
+            </value>
+            <value>
+                <fullName>Kindergarten</fullName>
+                <default>false</default>
+                <label>Kindergarten</label>
+            </value>
+            <value>
+                <fullName>School Age</fullName>
+                <default>false</default>
+                <label>School Age</label>
+            </value>
+            <value>
+                <fullName>Services for children with disabilities</fullName>
+                <default>false</default>
+                <label>Services for children with disabilities</label>
+            </value>
+            <value>
+                <fullName>Daily Activities</fullName>
+                <default>false</default>
+                <label>Daily Activities</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <label>Equipment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

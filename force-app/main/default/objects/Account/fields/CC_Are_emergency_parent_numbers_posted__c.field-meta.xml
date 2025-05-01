@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Are_emergency_parent_numbers_posted__c</fullName>
+    <inlineHelpText>Are emergency telephone numbers and parent telephone numbers posted?</inlineHelpText>
+    <label>Are emergency &amp; parent numbers posted?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Yes_No_Picklist</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Floor_Level__c</fullName>
+    <label>Floor Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>GROUND FLOOR</fullName>
+                <default>false</default>
+                <label>GROUND FLOOR</label>
+            </value>
+            <value>
+                <fullName>1ST FLOOR</fullName>
+                <default>false</default>
+                <label>1ST FLOOR</label>
+            </value>
+            <value>
+                <fullName>2ND FLOOR</fullName>
+                <default>false</default>
+                <label>2ND FLOOR</label>
+            </value>
+            <value>
+                <fullName>3RD FLOOR</fullName>
+                <default>false</default>
+                <label>3RD FLOOR</label>
+            </value>
+            <value>
+                <fullName>4TH FLOOR</fullName>
+                <default>false</default>
+                <label>4TH FLOOR</label>
+            </value>
+            <value>
+                <fullName>5TH FLOOR</fullName>
+                <default>false</default>
+                <label>5TH FLOOR</label>
+            </value>
+            <value>
+                <fullName>6TH FLOOR</fullName>
+                <default>false</default>
+                <label>6TH FLOOR</label>
+            </value>
+            <value>
+                <fullName>LOWER LEVEL</fullName>
+                <default>false</default>
+                <label>LOWER LEVEL</label>
+            </value>
+            <value>
+                <fullName>UPPER LEVEL</fullName>
+                <default>false</default>
+                <label>UPPER LEVEL</label>
+            </value>
+            <value>
+                <fullName>BASEMENT</fullName>
+                <default>false</default>
+                <label>BASEMENT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

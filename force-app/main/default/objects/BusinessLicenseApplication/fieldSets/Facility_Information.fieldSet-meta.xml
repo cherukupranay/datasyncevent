@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Information</fullName>
+    <description>Used to capture Felids to transfer to Facility Account</description>
+    <displayedFields>
+        <field>Number_of_children_for_who_care_provided__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>CC_Number_of_your_own_children__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Facility Information</label>
+</FieldSet>

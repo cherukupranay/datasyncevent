@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Application_External_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Status,
+&quot;Submitted&quot;,&quot;Submitted&quot;,
+&quot;Assigned&quot;,&quot;Submitted&quot;,
+&quot;Under Review&quot;,&quot;Under Review&quot;,
+&quot;Additional Information Requested&quot;,&quot;Additional Information Required&quot;,
+&quot;Additional Information Submitted&quot;,&quot;Additional Information Submitted&quot;,
+&quot;On-Site Visit Requested&quot;,&quot;On-Site Visit Requested&quot;,
+&quot;Approved&quot;,&quot;Approved&quot;,
+&quot;Contracted&quot;,&quot;Contracted&quot;,
+&quot;On-Site Visit Requested&quot;,&quot;On-Site Visit Requested&quot;,
+&quot;Visit Completed&quot;,&quot;Visit Completed&quot;,
+&quot;License Issued&quot;,&quot;License Issued&quot;,
+&quot;Pending Renewal&quot;,&quot;Pending Renewal&quot;,
+&quot;Denied&quot;,&quot;Denied&quot;,
+&quot;Withdrawn&quot;,&quot;Withdrawn&quot;,
+&quot;Expired&quot;,&quot;Expired&quot;,
+&quot;Other&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Application Status(External)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

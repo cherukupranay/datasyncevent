@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>PAR_BLA65</label>
+    <protected>false</protected>
+    <values>
+        <field>CC_DataSyncObjectMapping__c</field>
+        <value xsi:type="xsd:string">PAR_To_BLA</value>
+    </values>
+    <values>
+        <field>CC_Field_Type__c</field>
+        <value xsi:type="xsd:string">Text</value>
+    </values>
+    <values>
+        <field>CC_Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>CC_Is_Static_Value__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>CC_Not_for_mapping__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>CC_Source_Field__c</field>
+        <value xsi:type="xsd:string">Drug_or_felony_conviction__c</value>
+    </values>
+    <values>
+        <field>CC_Target_Field__c</field>
+        <value xsi:type="xsd:string">Drug_or_felony_conviction__c</value>
+    </values>
+</CustomMetadata>

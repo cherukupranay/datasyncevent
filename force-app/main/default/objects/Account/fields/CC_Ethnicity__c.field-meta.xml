@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Ethnicity__c</fullName>
+    <label>Ethnicity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hispanic or Latino</fullName>
+                <default>false</default>
+                <label>Hispanic or Latino</label>
+            </value>
+            <value>
+                <fullName>Unspecified</fullName>
+                <default>false</default>
+                <label>Unspecified</label>
+            </value>
+            <value>
+                <fullName>Not Hispanic or Latino</fullName>
+                <default>false</default>
+                <label>Not Hispanic or Latino</label>
+            </value>
+            <value>
+                <fullName>American Indian or Alaska Native</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>American Indian or Alaska Native</label>
+            </value>
+            <value>
+                <fullName>Asian</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Asian</label>
+            </value>
+            <value>
+                <fullName>Black or African American</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Black or African American</label>
+            </value>
+            <value>
+                <fullName>Native Hawaiian or Other Pacific Islander</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Native Hawaiian or Other Pacific Islander</label>
+            </value>
+            <value>
+                <fullName>Prefer not to answer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Prefer not to answer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Is_Static_Value__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Mark True: if the value is static and not coming from any field
+like always assign &apos;Test&apos; in Description field , 
+to do that:
+CC_Is_Static_Value =true;
+CC_Field_type = Text
+CC_Source_Field=Test</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Mark True: if the value is static and not coming from any field
+like always assign &apos;Test&apos; in Description field , 
+to do that:
+CC_Is_Static_Value =true;
+CC_Field_type = Text
+CC_Source_Field=Test</inlineHelpText>
+    <label>Is Static Value</label>
+    <type>Checkbox</type>
+</CustomField>

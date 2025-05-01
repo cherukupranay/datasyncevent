@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAR_To_BLA</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>CC_DataSyncObjectMapping__c</columns>
+    <columns>CC_Field_Type__c</columns>
+    <columns>CC_Is_Active__c</columns>
+    <columns>CC_Is_Static_Value__c</columns>
+    <columns>CC_Source_Field__c</columns>
+    <columns>CC_Target_Field__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CC_DataSyncObjectMapping__c</field>
+        <operation>contains</operation>
+        <value>PAR_To_BLA</value>
+    </filters>
+    <label>PAR To BLA</label>
+</ListView>

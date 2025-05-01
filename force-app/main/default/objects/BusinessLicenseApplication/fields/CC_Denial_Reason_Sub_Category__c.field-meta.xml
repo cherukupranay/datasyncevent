@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Denial_Reason_Sub_Category__c</fullName>
+    <label>Denial Reason Sub Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CC_Denial_Reason_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CPS</fullName>
+                <default>false</default>
+                <label>CPS</label>
+            </value>
+            <value>
+                <fullName>Criminal</fullName>
+                <default>false</default>
+                <label>Criminal</label>
+            </value>
+            <value>
+                <fullName>FBI</fullName>
+                <default>false</default>
+                <label>FBI</label>
+            </value>
+            <value>
+                <fullName>WIN</fullName>
+                <default>false</default>
+                <label>WIN</label>
+            </value>
+            <value>
+                <fullName>SVOR</fullName>
+                <default>false</default>
+                <label>SVOR</label>
+            </value>
+            <value>
+                <fullName>NSVOR</fullName>
+                <default>false</default>
+                <label>NSVOR</label>
+            </value>
+            <value>
+                <fullName>Currently on Trail</fullName>
+                <default>false</default>
+                <label>Currently on Trail</label>
+            </value>
+            <value>
+                <fullName>Pending Charges</fullName>
+                <default>false</default>
+                <label>Pending Charges</label>
+            </value>
+            <value>
+                <fullName>CPR</fullName>
+                <default>false</default>
+                <label>CPR</label>
+            </value>
+            <value>
+                <fullName>FA</fullName>
+                <default>false</default>
+                <label>FA</label>
+            </value>
+            <value>
+                <fullName>Orientation</fullName>
+                <default>false</default>
+                <label>Orientation</label>
+            </value>
+            <value>
+                <fullName>No Liability Insurance</fullName>
+                <default>false</default>
+                <label>No Liability Insurance</label>
+            </value>
+            <value>
+                <fullName>No Fire Insurance</fullName>
+                <default>false</default>
+                <label>No Fire Insurance</label>
+            </value>
+            <value>
+                <fullName>No Fire Inspection</fullName>
+                <default>false</default>
+                <label>No Fire Inspection</label>
+            </value>
+            <value>
+                <fullName>No Health Inspection</fullName>
+                <default>false</default>
+                <label>No Health Inspection</label>
+            </value>
+            <value>
+                <fullName>No Facility Location</fullName>
+                <default>false</default>
+                <label>No Facility Location</label>
+            </value>
+            <value>
+                <fullName>Non-Responsive</fullName>
+                <default>false</default>
+                <label>Non-Responsive</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>CPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>Criminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>FBI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>WIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>SVOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>NSVOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>Currently on Trail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <valueName>Pending Charges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Background Check Qualification Failed</controllingFieldValue>
+            <controllingFieldValue>Training Qualification Unmet</controllingFieldValue>
+            <controllingFieldValue>Application Incomplete</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Qualification Unmet</controllingFieldValue>
+            <valueName>CPR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Qualification Unmet</controllingFieldValue>
+            <valueName>FA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Training Qualification Unmet</controllingFieldValue>
+            <valueName>Orientation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application Incomplete</controllingFieldValue>
+            <valueName>No Liability Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application Incomplete</controllingFieldValue>
+            <valueName>No Fire Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application Incomplete</controllingFieldValue>
+            <valueName>No Fire Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application Incomplete</controllingFieldValue>
+            <valueName>No Health Inspection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application Incomplete</controllingFieldValue>
+            <valueName>No Facility Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Application Incomplete</controllingFieldValue>
+            <valueName>Non-Responsive</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

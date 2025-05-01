@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Physical_Exam_Date_Verification_Type__c</fullName>
+    <label>Physical Exam Date Verification Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Collateral Contact</fullName>
+                <default>false</default>
+                <label>Collateral Contact</label>
+            </value>
+            <value>
+                <fullName>Client Statement</fullName>
+                <default>false</default>
+                <label>Client Statement</label>
+            </value>
+            <value>
+                <fullName>Hard Copy</fullName>
+                <default>false</default>
+                <label>Hard Copy</label>
+            </value>
+            <value>
+                <fullName>Agency Verified</fullName>
+                <default>false</default>
+                <label>Agency Verified</label>
+            </value>
+            <value>
+                <fullName>Pediatric Health Statement</fullName>
+                <default>false</default>
+                <label>Pediatric Health Statement</label>
+            </value>
+            <value>
+                <fullName>Not Verified</fullName>
+                <default>false</default>
+                <label>Not Verified</label>
+            </value>
+            <value>
+                <fullName>Visually</fullName>
+                <default>false</default>
+                <label>Visually</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

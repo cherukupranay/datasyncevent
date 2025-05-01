@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_College_credits_per_term__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If attending college, how many credits is this student taking per quarter/semester?</inlineHelpText>
+    <label>College credits per quarter/semester?</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

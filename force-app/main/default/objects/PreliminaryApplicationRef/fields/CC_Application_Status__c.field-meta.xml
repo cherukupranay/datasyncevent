@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Application_Status__c</fullName>
+    <label>Application Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>Denied</fullName>
+                <default>false</default>
+                <label>Denied</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+            <value>
+                <fullName>Expired</fullName>
+                <default>false</default>
+                <label>Expired</label>
+            </value>
+            <value>
+                <fullName>Additional Info Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Additional Info Required</label>
+            </value>
+            <value>
+                <fullName>Additional Information Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Additional Information Required</label>
+            </value>
+            <value>
+                <fullName>Additional Information Submitted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Additional Information Submitted</label>
+            </value>
+            <value>
+                <fullName>Applicant Action Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Applicant Action Required</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Assigned</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Assigned</label>
+            </value>
+            <value>
+                <fullName>Authorized to Provider</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Authorized to Provider</label>
+            </value>
+            <value>
+                <fullName>Case Closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Case Closed</label>
+            </value>
+            <value>
+                <fullName>Certified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Certified</label>
+            </value>
+            <value>
+                <fullName>Certified - Authorized to Provider</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Certified - Authorized to Provider</label>
+            </value>
+            <value>
+                <fullName>Certified - Pending Authorization</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Certified - Pending Authorization</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Contracted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contracted</label>
+            </value>
+            <value>
+                <fullName>Expired Application</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expired Application</label>
+            </value>
+            <value>
+                <fullName>Inspection requested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inspection Requested</label>
+            </value>
+            <value>
+                <fullName>Need more information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Need more information</label>
+            </value>
+            <value>
+                <fullName>Pending Authorization</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending Authorization</label>
+            </value>
+            <value>
+                <fullName>Pending Recertification</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending Recertification</label>
+            </value>
+            <value>
+                <fullName>Pending Renewal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending Renewal</label>
+            </value>
+            <value>
+                <fullName>Pending e-verification or VNTD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pending e-verification or VNTD</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Request For Information</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request For Information</label>
+            </value>
+            <value>
+                <fullName>Request for Case Closure</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Request for Case Closure</label>
+            </value>
+            <value>
+                <fullName>Return for Revision</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Return for Revision</label>
+            </value>
+            <value>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terminated</label>
+            </value>
+            <value>
+                <fullName>Under Review</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Under Review</label>
+            </value>
+            <value>
+                <fullName>Unsubmitted</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unsubmitted</label>
+            </value>
+            <value>
+                <fullName>Visit Requested</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Visit Requested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

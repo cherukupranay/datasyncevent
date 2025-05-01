@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Relationship_to_Provider__c</fullName>
+    <label>Relationship to Provider</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brother</fullName>
+                <default>false</default>
+                <label>Brother</label>
+            </value>
+            <value>
+                <fullName>Sister</fullName>
+                <default>false</default>
+                <label>Sister</label>
+            </value>
+            <value>
+                <fullName>First Cousin</fullName>
+                <default>false</default>
+                <label>First Cousin</label>
+            </value>
+            <value>
+                <fullName>Nephew</fullName>
+                <default>false</default>
+                <label>Nephew</label>
+            </value>
+            <value>
+                <fullName>Niece</fullName>
+                <default>false</default>
+                <label>Niece</label>
+            </value>
+            <value>
+                <fullName>Grand Child</fullName>
+                <default>false</default>
+                <label>Grand Child</label>
+            </value>
+            <value>
+                <fullName>Great Grand Child</fullName>
+                <default>false</default>
+                <label>Great Grand Child</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

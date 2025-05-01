@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Out_of_State_provider_applications</fullName>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>ApplicationType</columns>
+    <columns>LicenseType</columns>
+    <columns>Status</columns>
+    <columns>AppliedDate</columns>
+    <columns>Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Category</field>
+        <operation>equals</operation>
+        <value>License</value>
+    </filters>
+    <filters>
+        <field>LicenseType</field>
+        <operation>equals</operation>
+        <value>Out of State</value>
+    </filters>
+    <label>All Out of State provider applications</label>
+</ListView>

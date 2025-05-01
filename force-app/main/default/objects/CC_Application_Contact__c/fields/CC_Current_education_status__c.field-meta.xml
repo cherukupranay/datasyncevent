@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Current_education_status__c</fullName>
+    <inlineHelpText>Current education status for this Household Member?</inlineHelpText>
+    <label>Current education status?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prek</fullName>
+                <default>false</default>
+                <label>Prek</label>
+            </value>
+            <value>
+                <fullName>Kindergarten Second ori</fullName>
+                <default>false</default>
+                <label>Kindergarten Second ori</label>
+            </value>
+            <value>
+                <fullName>Third Grade</fullName>
+                <default>false</default>
+                <label>Third Grade</label>
+            </value>
+            <value>
+                <fullName>Fourth Grade</fullName>
+                <default>false</default>
+                <label>Fourth Grade</label>
+            </value>
+            <value>
+                <fullName>Fifth Grade</fullName>
+                <default>false</default>
+                <label>Fifth Grade</label>
+            </value>
+            <value>
+                <fullName>Sixth Grade</fullName>
+                <default>false</default>
+                <label>Sixth Grade</label>
+            </value>
+            <value>
+                <fullName>Seventh Grade</fullName>
+                <default>false</default>
+                <label>Seventh Grade</label>
+            </value>
+            <value>
+                <fullName>Eight Grade</fullName>
+                <default>false</default>
+                <label>Eight Grade</label>
+            </value>
+            <value>
+                <fullName>High School Freshman</fullName>
+                <default>false</default>
+                <label>High School Freshman</label>
+            </value>
+            <value>
+                <fullName>High School Sophomore</fullName>
+                <default>false</default>
+                <label>High School Sophomore</label>
+            </value>
+            <value>
+                <fullName>High School Junior</fullName>
+                <default>false</default>
+                <label>High School Junior</label>
+            </value>
+            <value>
+                <fullName>High School Senior/GED</fullName>
+                <default>false</default>
+                <label>High School Senior/GED</label>
+            </value>
+            <value>
+                <fullName>Vo-Tech</fullName>
+                <default>false</default>
+                <label>Vo-Tech</label>
+            </value>
+            <value>
+                <fullName>Associates Degree</fullName>
+                <default>false</default>
+                <label>Associates Degree</label>
+            </value>
+            <value>
+                <fullName>Bachelors Degree</fullName>
+                <default>false</default>
+                <label>Bachelors Degree</label>
+            </value>
+            <value>
+                <fullName>College/University Freshman</fullName>
+                <default>false</default>
+                <label>College/University Freshman</label>
+            </value>
+            <value>
+                <fullName>College/University Junior</fullName>
+                <default>false</default>
+                <label>College/University Junior</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

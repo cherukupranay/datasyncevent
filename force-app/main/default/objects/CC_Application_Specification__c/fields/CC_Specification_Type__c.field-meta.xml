@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Specification_Type__c</fullName>
+    <label>Specification Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>License</fullName>
+                <default>false</default>
+                <label>License</label>
+            </value>
+            <value>
+                <fullName>Charges</fullName>
+                <default>false</default>
+                <label>Charges</label>
+            </value>
+            <value>
+                <fullName>Rooms</fullName>
+                <default>false</default>
+                <label>Rooms</label>
+            </value>
+            <value>
+                <fullName>Schedule</fullName>
+                <default>false</default>
+                <label>Schedule</label>
+            </value>
+            <value>
+                <fullName>Additional Information</fullName>
+                <default>false</default>
+                <label>Additional Information</label>
+            </value>
+            <value>
+                <fullName>Provider Below Market Rates</fullName>
+                <default>false</default>
+                <label>Provider Below Market Rates</label>
+            </value>
+            <value>
+                <fullName>Parent Application</fullName>
+                <default>false</default>
+                <label>Parent Application</label>
+            </value>
+            <value>
+                <fullName>Provider Staff</fullName>
+                <default>false</default>
+                <label>Provider Staff</label>
+            </value>
+            <value>
+                <fullName>Contact Alias</fullName>
+                <default>false</default>
+                <label>Contact Alias</label>
+            </value>
+            <value>
+                <fullName>Address</fullName>
+                <default>false</default>
+                <label>Address</label>
+            </value>
+            <value>
+                <fullName>Floor Plan</fullName>
+                <default>false</default>
+                <label>Floor Plan</label>
+            </value>
+            <value>
+                <fullName>Professional Credential</fullName>
+                <default>false</default>
+                <label>Professional Credential</label>
+            </value>
+            <value>
+                <fullName>Employment</fullName>
+                <default>false</default>
+                <label>Employment</label>
+            </value>
+            <value>
+                <fullName>Degree</fullName>
+                <default>false</default>
+                <label>Degree</label>
+            </value>
+            <value>
+                <fullName>Overlap Care</fullName>
+                <default>false</default>
+                <label>Overlap Care</label>
+            </value>
+            <value>
+                <fullName>State Lived In</fullName>
+                <default>false</default>
+                <label>State Lived In</label>
+            </value>
+            <value>
+                <fullName>Conviction and Disposition</fullName>
+                <default>false</default>
+                <label>Conviction and Disposition</label>
+            </value>
+            <value>
+                <fullName>Jurisdiction</fullName>
+                <default>false</default>
+                <label>Jurisdiction</label>
+            </value>
+            <value>
+                <fullName>Co-owner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Co-owner</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Owner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Owner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Business_Management_Record_Info__c</fullName>
+    <description>Designation Types for Business Management</description>
+    <label>Business Management/Record Info</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account / Books</fullName>
+                <default>false</default>
+                <label>Account / Books</label>
+            </value>
+            <value>
+                <fullName>Records</fullName>
+                <default>false</default>
+                <label>Records</label>
+            </value>
+            <value>
+                <fullName>Personal Records</fullName>
+                <default>false</default>
+                <label>Personal Records</label>
+            </value>
+            <value>
+                <fullName>Children’s Records</fullName>
+                <default>false</default>
+                <label>Children’s Records</label>
+            </value>
+            <value>
+                <fullName>Financial Documentation</fullName>
+                <default>false</default>
+                <label>Financial Documentation</label>
+            </value>
+            <value>
+                <fullName>Members Schedule</fullName>
+                <default>false</default>
+                <label>Members Schedule</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

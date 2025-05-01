@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Account_Type__c</fullName>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>6 or Fewer**</fullName>
+                <default>false</default>
+                <label>6 or Fewer**</label>
+            </value>
+            <value>
+                <fullName>Group Home</fullName>
+                <default>false</default>
+                <label>Group Home</label>
+            </value>
+            <value>
+                <fullName>Licensed Center</fullName>
+                <default>false</default>
+                <label>Licensed Center</label>
+            </value>
+            <value>
+                <fullName>Licensed Family Home</fullName>
+                <default>false</default>
+                <label>Licensed Family Home</label>
+            </value>
+            <value>
+                <fullName>Registered Center</fullName>
+                <default>false</default>
+                <label>Registered Center</label>
+            </value>
+            <value>
+                <fullName>Parent</fullName>
+                <default>false</default>
+                <label>Parent</label>
+            </value>
+            <value>
+                <fullName>Provider</fullName>
+                <default>false</default>
+                <label>Provider</label>
+            </value>
+            <value>
+                <fullName>Informal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Informal</label>
+            </value>
+            <value>
+                <fullName>Licensed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Licensed</label>
+            </value>
+            <value>
+                <fullName>Licensed Exempt</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Licensed Exempt</label>
+            </value>
+            <value>
+                <fullName>Tribal Licensed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tribal Licensed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

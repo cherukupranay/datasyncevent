@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Enter_Details__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>I confirm that neither I, nor anyone present in the home, have been investigated for any alleged harm or physical or sexual abuse to children or adults. If this statement is false, I am providing the information required about where the investigation occurred</inlineHelpText>
+    <label>Enter Details</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

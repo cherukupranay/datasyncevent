@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Other_Responsibilities__c</fullName>
+    <description>Other Designation Types</description>
+    <label>Other Responsibilities</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Staff Development</fullName>
+                <default>false</default>
+                <label>Staff Development</label>
+            </value>
+            <value>
+                <fullName>Staff Training</fullName>
+                <default>false</default>
+                <label>Staff Training</label>
+            </value>
+            <value>
+                <fullName>Staff Orientation</fullName>
+                <default>false</default>
+                <label>Staff Orientation</label>
+            </value>
+            <value>
+                <fullName>Staff Supervision</fullName>
+                <default>false</default>
+                <label>Staff Supervision</label>
+            </value>
+            <value>
+                <fullName>Parent Involvement</fullName>
+                <default>false</default>
+                <label>Parent Involvement</label>
+            </value>
+            <value>
+                <fullName>Social Services</fullName>
+                <default>false</default>
+                <label>Social Services</label>
+            </value>
+            <value>
+                <fullName>Infant / Toddler Program</fullName>
+                <default>false</default>
+                <label>Infant / Toddler Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

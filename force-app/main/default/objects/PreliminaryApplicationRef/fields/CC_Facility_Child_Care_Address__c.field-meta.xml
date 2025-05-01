@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Facility_Child_Care_Address__c</fullName>
+    <description>To capture address for Facility Child Care for FCC Amend</description>
+    <label>Facility Child Care Address</label>
+    <trackHistory>false</trackHistory>
+    <type>Address</type>
+</CustomField>

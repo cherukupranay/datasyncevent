@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Reason_for_child_care_assistance__c</fullName>
+    <inlineHelpText>What is the primary reason that you need child care assistance?</inlineHelpText>
+    <label>Reason for child care assistance</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employment</fullName>
+                <default>false</default>
+                <label>Employment</label>
+            </value>
+            <value>
+                <fullName>Training/Education</fullName>
+                <default>false</default>
+                <label>Training/Education</label>
+            </value>
+            <value>
+                <fullName>Both Employment and Training/Education</fullName>
+                <default>false</default>
+                <label>Both Employment and Training/Education</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

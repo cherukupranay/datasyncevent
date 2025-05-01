@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Application_Type__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Facility/Application Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Child Care Center</fullName>
+                <default>true</default>
+                <label>Child Care Center</label>
+            </value>
+            <value>
+                <fullName>Group Home Child Care</fullName>
+                <default>false</default>
+                <label>Group Home Child Care</label>
+            </value>
+            <value>
+                <fullName>Family Home</fullName>
+                <default>false</default>
+                <label>Family Home</label>
+            </value>
+            <value>
+                <fullName>Friend, Family, Neighbor (FFN) Provider</fullName>
+                <default>false</default>
+                <label>Friend, Family, Neighbor (FFN) Provider</label>
+            </value>
+            <value>
+                <fullName>Relative Care Exempt (RCE) Provider</fullName>
+                <default>false</default>
+                <label>Relative Care Exempt (RCE) Provider</label>
+            </value>
+            <value>
+                <fullName>School Age/ Drop In</fullName>
+                <default>false</default>
+                <label>School Age/ Drop In</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

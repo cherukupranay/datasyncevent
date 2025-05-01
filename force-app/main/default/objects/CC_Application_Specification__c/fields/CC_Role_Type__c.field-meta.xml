@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Role_Type__c</fullName>
+    <label>Role Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Administrator/Director</fullName>
+                <default>false</default>
+                <label>Administrator/Director</label>
+            </value>
+            <value>
+                <fullName>Administrative Staff</fullName>
+                <default>false</default>
+                <label>Administrative Staff</label>
+            </value>
+            <value>
+                <fullName>Assistant Director</fullName>
+                <default>false</default>
+                <label>Assistant Director</label>
+            </value>
+            <value>
+                <fullName>Early Head Start Assistant Teacher</fullName>
+                <default>false</default>
+                <label>Early Head Start Assistant Teacher</label>
+            </value>
+            <value>
+                <fullName>Early Head Start Teacher</fullName>
+                <default>false</default>
+                <label>Early Head Start Teacher</label>
+            </value>
+            <value>
+                <fullName>Education Coordinator</fullName>
+                <default>false</default>
+                <label>Education Coordinator</label>
+            </value>
+            <value>
+                <fullName>Elementary Teacher</fullName>
+                <default>false</default>
+                <label>Elementary Teacher</label>
+            </value>
+            <value>
+                <fullName>Family Child Care Assistant</fullName>
+                <default>false</default>
+                <label>Family Child Care Assistant</label>
+            </value>
+            <value>
+                <fullName>Family Child Care Emergency Assistant</fullName>
+                <default>false</default>
+                <label>Family Child Care Emergency Assistant</label>
+            </value>
+            <value>
+                <fullName>Family Child Care Provider</fullName>
+                <default>false</default>
+                <label>Family Child Care Provider</label>
+            </value>
+            <value>
+                <fullName>Floater/Support Staff</fullName>
+                <default>false</default>
+                <label>Floater/Support Staff</label>
+            </value>
+            <value>
+                <fullName>Head Start Assistant Teacher</fullName>
+                <default>false</default>
+                <label>Head Start Assistant Teacher</label>
+            </value>
+            <value>
+                <fullName>Head Start Teacher</fullName>
+                <default>false</default>
+                <label>Head Start Teacher</label>
+            </value>
+            <value>
+                <fullName>Higher Education Faculty/Staff</fullName>
+                <default>false</default>
+                <label>Higher Education Faculty/Staff</label>
+            </value>
+            <value>
+                <fullName>Infant Assistant Teacher</fullName>
+                <default>false</default>
+                <label>Infant Assistant Teacher</label>
+            </value>
+            <value>
+                <fullName>Infant Teacher</fullName>
+                <default>false</default>
+                <label>Infant Teacher</label>
+            </value>
+            <value>
+                <fullName>Janitorial/Housekeeping</fullName>
+                <default>false</default>
+                <label>Janitorial/Housekeeping</label>
+            </value>
+            <value>
+                <fullName>Kindergarten Teacher</fullName>
+                <default>false</default>
+                <label>Kindergarten Teacher</label>
+            </value>
+            <value>
+                <fullName>Kitchen/Cooking Staff</fullName>
+                <default>false</default>
+                <label>Kitchen/Cooking Staff</label>
+            </value>
+            <value>
+                <fullName>License-Exempt Provider</fullName>
+                <default>false</default>
+                <label>License-Exempt Provider</label>
+            </value>
+            <value>
+                <fullName>Mental health Consultant/Specialist</fullName>
+                <default>false</default>
+                <label>Mental health Consultant/Specialist</label>
+            </value>
+            <value>
+                <fullName>Night Time Coordinator</fullName>
+                <default>false</default>
+                <label>Night Time Coordinator</label>
+            </value>
+            <value>
+                <fullName>Non-Teaching Leadership</fullName>
+                <default>false</default>
+                <label>Non-Teaching Leadership</label>
+            </value>
+            <value>
+                <fullName>Nurse/Health Care Consultant/Specialist</fullName>
+                <default>false</default>
+                <label>Nurse/Health Care Consultant/Specialist</label>
+            </value>
+            <value>
+                <fullName>Other, Describe</fullName>
+                <default>false</default>
+                <label>Other, Describe</label>
+            </value>
+            <value>
+                <fullName>Owner/Executive Lead</fullName>
+                <default>false</default>
+                <label>Owner/Executive Lead</label>
+            </value>
+            <value>
+                <fullName>Preschool Assistant Teacher</fullName>
+                <default>false</default>
+                <label>Preschool Assistant Teacher</label>
+            </value>
+            <value>
+                <fullName>Preschool Teacher</fullName>
+                <default>false</default>
+                <label>Preschool Teacher</label>
+            </value>
+            <value>
+                <fullName>Principal</fullName>
+                <default>false</default>
+                <label>Principal</label>
+            </value>
+            <value>
+                <fullName>Professional Development/Technical Assistance Provider</fullName>
+                <default>false</default>
+                <label>Professional Development/Technical Assistance Provider</label>
+            </value>
+            <value>
+                <fullName>School Age Assistant Teacher</fullName>
+                <default>false</default>
+                <label>School Age Assistant Teacher</label>
+            </value>
+            <value>
+                <fullName>School Age Site Coordinator</fullName>
+                <default>false</default>
+                <label>School Age Site Coordinator</label>
+            </value>
+            <value>
+                <fullName>School Age Teacher</fullName>
+                <default>false</default>
+                <label>School Age Teacher</label>
+            </value>
+            <value>
+                <fullName>School Counselor</fullName>
+                <default>false</default>
+                <label>School Counselor</label>
+            </value>
+            <value>
+                <fullName>School Psychologist</fullName>
+                <default>false</default>
+                <label>School Psychologist</label>
+            </value>
+            <value>
+                <fullName>Site Coordinator</fullName>
+                <default>false</default>
+                <label>Site Coordinator</label>
+            </value>
+            <value>
+                <fullName>Social Worker</fullName>
+                <default>false</default>
+                <label>Social Worker</label>
+            </value>
+            <value>
+                <fullName>Special Education Teacher</fullName>
+                <default>false</default>
+                <label>Special Education Teacher</label>
+            </value>
+            <value>
+                <fullName>State Agency Staff</fullName>
+                <default>false</default>
+                <label>State Agency Staff</label>
+            </value>
+            <value>
+                <fullName>State Contractor</fullName>
+                <default>false</default>
+                <label>State Contractor</label>
+            </value>
+            <value>
+                <fullName>State Preschool Assistant Teacher</fullName>
+                <default>false</default>
+                <label>State Preschool Assistant Teacher</label>
+            </value>
+            <value>
+                <fullName>State Preschool Teacher</fullName>
+                <default>false</default>
+                <label>State Preschool Teacher</label>
+            </value>
+            <value>
+                <fullName>Student Teacher</fullName>
+                <default>false</default>
+                <label>Student Teacher</label>
+            </value>
+            <value>
+                <fullName>Substitute Teacher</fullName>
+                <default>false</default>
+                <label>Substitute Teacher</label>
+            </value>
+            <value>
+                <fullName>Teacher Aide</fullName>
+                <default>false</default>
+                <label>Teacher Aide</label>
+            </value>
+            <value>
+                <fullName>Teacher Assistant</fullName>
+                <default>false</default>
+                <label>Teacher Assistant</label>
+            </value>
+            <value>
+                <fullName>Therapeutic Integration Specialist</fullName>
+                <default>false</default>
+                <label>Therapeutic Integration Specialist</label>
+            </value>
+            <value>
+                <fullName>Toddler Assistant Teacher</fullName>
+                <default>false</default>
+                <label>Toddler Assistant Teacher</label>
+            </value>
+            <value>
+                <fullName>Toddler Lead Teacher</fullName>
+                <default>false</default>
+                <label>Toddler Lead Teacher</label>
+            </value>
+            <value>
+                <fullName>Transportation Provider</fullName>
+                <default>false</default>
+                <label>Transportation Provider</label>
+            </value>
+            <value>
+                <fullName>Unemployed/Not Currently Employed</fullName>
+                <default>false</default>
+                <label>Unemployed/Not Currently Employed</label>
+            </value>
+            <value>
+                <fullName>Volunteer</fullName>
+                <default>false</default>
+                <label>Volunteer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

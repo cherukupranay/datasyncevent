@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Background_Check__c</fullName>
+    <label>Background Check</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DCYF Child Abuse and Neglect Registry Check</fullName>
+                <default>false</default>
+                <label>DCYF Child Abuse and Neglect Registry Check</label>
+            </value>
+            <value>
+                <fullName>Comprehensive Criminal Background Check</fullName>
+                <default>false</default>
+                <label>Comprehensive Criminal Background Check</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

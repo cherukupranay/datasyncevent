@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Reason_For_Rejection__c</fullName>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Over income limit</fullName>
+                <default>false</default>
+                <label>Over income limit</label>
+            </value>
+            <value>
+                <fullName>Over resource limit</fullName>
+                <default>false</default>
+                <label>Over resource limit</label>
+            </value>
+            <value>
+                <fullName>No eligible child</fullName>
+                <default>false</default>
+                <label>No eligible child</label>
+            </value>
+            <value>
+                <fullName>Child over age 13 with no special need</fullName>
+                <default>false</default>
+                <label>Child over age 13 with no special need</label>
+            </value>
+            <value>
+                <fullName>Does not meet residency requirement</fullName>
+                <default>false</default>
+                <label>Does not meet residency requirement</label>
+            </value>
+            <value>
+                <fullName>Does not meet citizenship requirement</fullName>
+                <default>false</default>
+                <label>Does not meet citizenship requirement</label>
+            </value>
+            <value>
+                <fullName>Does not meet relationship requirement</fullName>
+                <default>false</default>
+                <label>Does not meet relationship requirement</label>
+            </value>
+            <value>
+                <fullName>No valid need</fullName>
+                <default>false</default>
+                <label>No valid need</label>
+            </value>
+            <value>
+                <fullName>Sanction</fullName>
+                <default>false</default>
+                <label>Sanction</label>
+            </value>
+            <value>
+                <fullName>Voluntary</fullName>
+                <default>false</default>
+                <label>Voluntary</label>
+            </value>
+            <value>
+                <fullName>Invalid protective service status</fullName>
+                <default>false</default>
+                <label>Invalid protective service status</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Assistance_Needed</fullName>
+    <columns>Name</columns>
+    <columns>ApplicationType</columns>
+    <columns>BusinessAccountName</columns>
+    <columns>CC_Application_Status__c</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CC_Reason_to_Withdraw__c</field>
+        <operation>equals</operation>
+        <value>Application assistance needed</value>
+    </filters>
+    <label>Parent Application Assistance Needed</label>
+</ListView>

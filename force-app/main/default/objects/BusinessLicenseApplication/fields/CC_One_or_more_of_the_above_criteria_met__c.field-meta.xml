@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_One_or_more_of_the_above_criteria_met__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>One or more of the above criteria, has been met.</inlineHelpText>
+    <label>One or more of the above criteria met?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

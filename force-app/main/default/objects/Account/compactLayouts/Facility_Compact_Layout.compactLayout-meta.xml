@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Facility_Compact_Layout</fullName>
+    <fields>RecordTypeId</fields>
+    <fields>CC_Unique_Identification_Number__c</fields>
+    <fields>CC_Email__c</fields>
+    <fields>CC_Facility_Phone_Number__c</fields>
+    <label>Facility Compact Layout</label>
+</CompactLayout>

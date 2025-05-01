@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Capacity__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISPICKVAL( CC_Space_Type__c , &apos;Indoor Space&apos;), 
+      ROUND(CC_SqaureFeet__c /   VALUE( $Label.CC_IndoorSpace) , 0), 
+ IF (ISPICKVAL( CC_Space_Type__c , &apos;Outdoor Space&apos;), 
+     ROUND(CC_SqaureFeet__c/ VALUE($Label.CC_OutdoorSpaceRequired) , 0), 0
+   )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Capacity</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

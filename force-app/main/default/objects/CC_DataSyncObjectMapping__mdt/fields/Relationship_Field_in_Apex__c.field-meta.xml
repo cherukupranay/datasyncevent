@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_Field_in_Apex__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If the Relationship Field are mentioned in Apex</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If the Relationship Field are mentioned in Apex</inlineHelpText>
+    <label>Relationship Field in Apex</label>
+    <type>Checkbox</type>
+</CustomField>

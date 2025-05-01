@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Accrediting_Organisation_Name__c</fullName>
+    <label>Accrediting Organization Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NAEYC – National Association for the Education of Young Children</fullName>
+                <default>false</default>
+                <label>NAEYC – National Association for the Education of Young Children</label>
+            </value>
+            <value>
+                <fullName>NAFCC – National Association for Family Child Care</fullName>
+                <default>false</default>
+                <label>NAFCC – National Association for Family Child Care</label>
+            </value>
+            <value>
+                <fullName>NECPA – National Early Childhood Program Accreditation</fullName>
+                <default>false</default>
+                <label>NECPA – National Early Childhood Program Accreditation</label>
+            </value>
+            <value>
+                <fullName>CARF International – Commission on Accreditation of Rehabilitation Facilities</fullName>
+                <default>false</default>
+                <label>CARF International – Commission on Accreditation of Rehabilitation Facilities</label>
+            </value>
+            <value>
+                <fullName>COA – Council on Accreditation</fullName>
+                <default>false</default>
+                <label>COA – Council on Accreditation</label>
+            </value>
+            <value>
+                <fullName>COGNIA – (formally Advanced Education, Inc)</fullName>
+                <default>false</default>
+                <label>COGNIA – (formally Advanced Education, Inc)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

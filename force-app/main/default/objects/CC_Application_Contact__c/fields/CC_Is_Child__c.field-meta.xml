@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Is_Child__c</fullName>
+    <formula>IF(ISPICKVAL(CC_Is_disabled_or_has_a_special_need__c, &apos;Yes&apos;), ((TODAY() - CC_Date_of_Birth__c) / 365) &lt; 18, IF(ISPICKVAL(CC_Is_disabled_or_has_a_special_need__c, &apos;No&apos;), ((TODAY() - CC_Date_of_Birth__c) / 365) &lt; 12, false))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is Child</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

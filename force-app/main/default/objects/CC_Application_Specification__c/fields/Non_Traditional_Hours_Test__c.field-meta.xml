@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Traditional_Hours_Test__c</fullName>
+    <externalId>false</externalId>
+    <formula>/* Total hours */
+/*Logic added:  Converting the picklist time to string and then substring to get the hours and minutes, converting minutes to hours and adding*/
+ABS(
+  (VALUE(MID(TEXT(CC_To_Monday__c), 1, 2)) + VALUE(MID(TEXT(CC_To_Monday__c), 4, 2)) / 60)
+  -
+  (VALUE(MID(TEXT(CC_From_Monday__c), 1, 2)) + VALUE(MID(TEXT(CC_From_Monday__c), 4, 2)) / 60)
+)
+-
+/* Total Traditional Hours hours */
+/* Here we need to change the Tuesday reference and have the Start Time and End time of the facility*/
+ABS(
+  MIN(
+    VALUE(MID(TEXT(CC_To_Monday__c), 1, 2)) + VALUE(MID(TEXT(CC_To_Monday__c), 4, 2)) / 60,
+    VALUE(MID(TEXT(CC_To_Tuesday__c), 1, 2)) + VALUE(MID(TEXT(CC_To_Tuesday__c), 4, 2)) / 60
+  ) -
+  MAX(
+    VALUE(MID(TEXT(CC_From_Monday__c), 1, 2)) + VALUE(MID(TEXT(CC_From_Monday__c), 4, 2)) / 60,
+    VALUE(MID(TEXT(CC_From_Tuesday__c), 1, 2)) + VALUE(MID(TEXT(CC_From_Tuesday__c), 4, 2)) / 60
+  )
+)</formula>
+    <label>Non_Traditional Hours Test</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

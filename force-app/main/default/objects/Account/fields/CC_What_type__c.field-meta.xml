@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_What_type__c</fullName>
+    <inlineHelpText>What type of registered or certified child care provider?</inlineHelpText>
+    <label>What type?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Family Home Child Care</fullName>
+                <default>false</default>
+                <label>Family Home Child Care</label>
+            </value>
+            <value>
+                <fullName>Group Home Child Care</fullName>
+                <default>false</default>
+                <label>Group Home Child Care</label>
+            </value>
+            <value>
+                <fullName>Child Care Center</fullName>
+                <default>false</default>
+                <label>Child Care Center</label>
+            </value>
+            <value>
+                <fullName>Friend, Family, Neighbor(FFN)</fullName>
+                <default>false</default>
+                <label>Friend, Family, Neighbor(FFN)</label>
+            </value>
+            <value>
+                <fullName>Relative Care Exempt (RCE)</fullName>
+                <default>false</default>
+                <label>Relative Care Exempt (RCE)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

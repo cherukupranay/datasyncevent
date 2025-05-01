@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Dismissal_Reason__c</fullName>
+    <label>Dismissal Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&quot;Registration / License Suspended</fullName>
+                <default>false</default>
+                <label>&quot;Registration / License Suspended</label>
+            </value>
+            <value>
+                <fullName>Non-Compliance With Agreement Terms</fullName>
+                <default>false</default>
+                <label>Non-Compliance With Agreement Terms</label>
+            </value>
+            <value>
+                <fullName>Non-Compliance With Child Care Plan Authorization</fullName>
+                <default>false</default>
+                <label>Non-Compliance With Child Care Plan Authorization</label>
+            </value>
+            <value>
+                <fullName>Lack Of Certification By Regulating Authority</fullName>
+                <default>false</default>
+                <label>Lack Of Certification By Regulating Authority</label>
+            </value>
+            <value>
+                <fullName>Duplicate Provider - No longer Active</fullName>
+                <default>false</default>
+                <label>Duplicate Provider - No longer Active</label>
+            </value>
+            <value>
+                <fullName>Quit - Provider Informed Licensing Office</fullName>
+                <default>false</default>
+                <label>Quit - Provider Informed Licensing Office</label>
+            </value>
+            <value>
+                <fullName>Provider Deceased</fullName>
+                <default>false</default>
+                <label>Provider Deceased</label>
+            </value>
+            <value>
+                <fullName>Registration / License Expired - Not Renewed</fullName>
+                <default>false</default>
+                <label>Registration / License Expired - Not Renewed</label>
+            </value>
+            <value>
+                <fullName>Registration / License Revoked</fullName>
+                <default>false</default>
+                <label>Registration / License Revoked</label>
+            </value>
+            <value>
+                <fullName>Provider Withdrew Application</fullName>
+                <default>false</default>
+                <label>Provider Withdrew Application</label>
+            </value>
+            <value>
+                <fullName>Application Not Completed / Not Attend Orientation&quot;</fullName>
+                <default>false</default>
+                <label>Application Not Completed / Not Attend Orientation&quot;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

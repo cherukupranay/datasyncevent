@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_FFN_RCE_Applications</fullName>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>ApplicationType</columns>
+    <columns>LicenseType</columns>
+    <columns>Status</columns>
+    <columns>AppliedDate</columns>
+    <columns>Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Category</field>
+        <operation>equals</operation>
+        <value>License</value>
+    </filters>
+    <filters>
+        <field>LicenseType</field>
+        <operation>equals</operation>
+        <value>Friend Family Neighbor (FFN) License,Relative Care Exempt (RCE) License</value>
+    </filters>
+    <label>All FFN/RCE Applications</label>
+</ListView>

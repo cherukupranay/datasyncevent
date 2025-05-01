@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_False_statements_can_revoke_a_license__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>I understand that furnishing or making any misleading or false statements or reports anywhere in this application is grounds to revoke, suspend, refuse to issue or refuse to renew a license.</inlineHelpText>
+    <label>False statements can revoke a license</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Multi_Location_Staff__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is Staff Member Manage Multiple facilities?</description>
+    <label>Multi Location Staff</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

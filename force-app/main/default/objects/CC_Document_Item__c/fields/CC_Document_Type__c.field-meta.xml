@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CC_Document_Type__c</fullName>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Highest Level of Education</fullName>
+                <default>false</default>
+                <label>Highest Level of Education</label>
+            </value>
+            <value>
+                <fullName>DCYF/CANTS Background Check</fullName>
+                <default>false</default>
+                <label>DCYF/CANTS Background Check</label>
+            </value>
+            <value>
+                <fullName>Comprehensive Background Check</fullName>
+                <default>false</default>
+                <label>Comprehensive Background Check</label>
+            </value>
+            <value>
+                <fullName>Degree</fullName>
+                <default>false</default>
+                <label>Degree</label>
+            </value>
+            <value>
+                <fullName>Professional Credential Information</fullName>
+                <default>false</default>
+                <label>Professional Credential Information</label>
+            </value>
+            <value>
+                <fullName>Coursework</fullName>
+                <default>false</default>
+                <label>Coursework</label>
+            </value>
+            <value>
+                <fullName>License</fullName>
+                <default>false</default>
+                <label>License</label>
+            </value>
+            <value>
+                <fullName>Provider Application Contracted</fullName>
+                <default>false</default>
+                <label>Provider Application Contracted</label>
+            </value>
+            <value>
+                <fullName>Administrative Review Requested</fullName>
+                <default>false</default>
+                <label>Administrative Review Requested</label>
+            </value>
+            <value>
+                <fullName>Photo ID</fullName>
+                <default>false</default>
+                <label>Photo ID</label>
+            </value>
+            <value>
+                <fullName>Proof Of Income</fullName>
+                <default>false</default>
+                <label>Proof Of Income</label>
+            </value>
+            <value>
+                <fullName>Proof Of Insurance</fullName>
+                <default>false</default>
+                <label>Proof Of Insurance</label>
+            </value>
+            <value>
+                <fullName>Proof of Expense</fullName>
+                <default>false</default>
+                <label>Proof of Expense</label>
+            </value>
+            <value>
+                <fullName>Attendance</fullName>
+                <default>false</default>
+                <label>Attendance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
